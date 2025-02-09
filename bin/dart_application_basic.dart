@@ -6,7 +6,6 @@ void main() {
   var hovaten = ' tran viet hoang';
   print('Ma so sinh vien${masosinhvien}');
   print('ho va ten ${hovaten}');
-  print('tuoi ${tuoi}');
-    print('tuoi ${tuoi}');
+  print('tuoi${tuoi}'); 
 }
 
