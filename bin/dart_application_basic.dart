@@ -1,11 +1,10 @@
 
 
 void main() {
-  var masosinhvien = '123';
-  int tuoi = 18;
-  var hovaten = ' tran viet hoang';
-  print('Ma so sinh vien${masosinhvien}');
-  print('ho va ten ${hovaten}');
-  print('tuoi${tuoi}'); 
+ List<int> numbers = [1,2,3];
+numbers.addAll([4, 5, 6]);
+print(numbers[5]);
+print(numbers[4]);
+print(numbers[3]);
 }
 
