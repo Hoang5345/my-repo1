@@ -1,12 +1,17 @@
-int calculate() {
-  return 6 * 7;
-}
-int sumUsingLoop(List<int> numbers) {
-  int sum = 0;
-  for (int number in numbers) {
-    sum += number;
+class SinhVien {
+  String? ten;
+  int? tuoi;
+  SinhVien(this.ten, this.tuoi);
+  void inRaten() {
+    print('tên: $ten');
   }
-  return sum;
 }
 
- 
+void main() {
+  List<SinhVien> danhSach = [];
+  SinhVien svHoang = SinhVien('hjkg', 100);
+  danhSach.add(svHoang);
+  for (var sv in danhSach) {
+    sv.inRaten();
+  }
+}
