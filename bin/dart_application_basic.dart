@@ -3,13 +3,13 @@ class SinhVien {
   int? tuoi;
   SinhVien(this.ten, this.tuoi);
   void inRaten() {
-    print('tên: $ten');
+    print('tên: $ten - $tuoi');
   }
 }
 
 void main() {
   List<SinhVien> danhSach = [];
-  SinhVien svHoang = SinhVien('hjkg', 100);
+  SinhVien svHoang = SinhVien('hoàng', 100);
   danhSach.add(svHoang);
   for (var sv in danhSach) {
     sv.inRaten();
